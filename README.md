@@ -8,6 +8,9 @@ a library for financial modelling in Ruby.
 
 ## IMPORTANT CHANGES
 
+This is a fork from [marksweston/finance](https://github.com/marksweston/finance)
+only to fix some deprecations methods.
+
 Contributions by [@thadd](https://github.com/thadd) and
 [@bramswenson](https://github.com/bramswenson) have made the `finance`
 library fully compatible with rails, at the cost of the `#years` and
@@ -107,7 +110,7 @@ You can also increase your payment to a specific amount:
 
     >> extra_payments_2 = 250000.amortize(rate){ -1500 }
 
-## ABOUT
+## ABOUT (From marksweston repository)
 
 I started developing `finance` while analyzing mortgages as a personal
 project.  Spreadsheets have convenient formulas for doing this type of
